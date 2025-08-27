@@ -10,7 +10,7 @@ export default function TaskForm({ onTaskAdded }) {
     try {
       const token = localStorage.getItem("token");
 
-      const res = await fetch("http://localhost:5000/api/tasks", {
+      const res = await fetch("https://task-mgt-ns9c.onrender.com/api/tasks", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

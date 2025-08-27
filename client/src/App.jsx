@@ -41,7 +41,7 @@ function App() {
           path="/today"
           element={
             <PrivateRoute>
-              <TodayPage /> {/* 👈 Today page route */}
+              <TodayPage />
             </PrivateRoute>
           }
         />

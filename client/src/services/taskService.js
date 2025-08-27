@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://task-mgt-ns9c.onrender.com/api/tasks";
 
 // Get all tasks
 export async function fetchTasks(token) {

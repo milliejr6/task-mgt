@@ -9,11 +9,14 @@ export default function SignupForm() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:5000/api/auth/signup", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, password }),
-      });
+      const res = await fetch(
+        "https://task-mgt-ns9c.onrender.com/api/auth/signup",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, email, password }),
+        }
+      );
 
       const data = await res.json();
 
