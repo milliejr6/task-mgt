@@ -1,4 +1,3 @@
-// SignupForm.jsx
 import React, { useState } from "react";
 
 export default function SignupForm() {

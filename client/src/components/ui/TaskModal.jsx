@@ -1,4 +1,3 @@
-// src/components/TaskModal.jsx
 import React from "react";
 
 export default function TaskModal({ isOpen, onClose, task, onSave }) {

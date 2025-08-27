@@ -1,4 +1,3 @@
-// src/pages/TaskPage.jsx
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -9,7 +8,7 @@ export default function TaskPage() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [dueDate, setDueDate] = useState("");
-  const [priority, setPriority] = useState("medium"); // default priority
+  const [priority, setPriority] = useState("medium");
   const [showCompleted, setShowCompleted] = useState(false);
 
   const fetchTasks = async () => {

@@ -1,4 +1,3 @@
-// src/pages/UpcomingPage.jsx
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
